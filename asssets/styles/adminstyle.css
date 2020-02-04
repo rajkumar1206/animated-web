@@ -81,7 +81,13 @@ form{
     flex-grow: 1;
     width: 30%;
     align-items: center;
+    margin: 5px;
 }
+
+.dob input{
+    margin:1px;
+}
+
 .slash{
     align-items: center;
 }
@@ -146,7 +152,7 @@ a{
         display: block;
     }
     input , textarea ,button{
-        width: 95%;
+        width: 85%;
     }
     .footer-items{
         width: 100%;
