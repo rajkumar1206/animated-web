@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.block{
+    width: 90%;
+    margin: auto;
+}
+
+.container{
+    background-attachment: fixed;
+    width: 100%;
+    background: url('../images/woman-writing.jpg') no-repeat center;
+    clear: both;
+}
+
+input , textarea ,button , .flex{
+    background-color: rgba(250, 250, 250, 0.5);
+    margin: 10px;
+    width: 70%;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 30%;
+    float : right;
+    padding: 20px;
+}
+img::after{
+    content: "";
+    clear: both;
+}
+
+form{
+    margin: auto;
+    text-align: center;
+}
+
+input , textarea,button{
+    text-align: center;
+    margin: auto;
+    margin: 20px ;
+}
+
+input , button{
+    height: 35px;
+}
+
+input:focus,textarea:focus{
+    border:2px solid springgreen;
+}
+
+p{
+    margin: 30px;
+    font-size: 20px;
+}
+
+form{
+    padding: 40px 0;
+    margin: auto;
+    width: 70%;
+}
+
+.flex{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.dob{
+    flex-grow: 1;
+    width: 30%;
+    align-items: center;
+}
+.slash{
+    align-items: center;
+}
+
+button:hover{
+    background-color: #AAA;
+}
+
+footer ul{
+    list-style-type: none;
+
+}
+
+ li{
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: rgb(34, 32, 32);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.footer-items{
+    flex-grow: 1;
+    margin: 20px 0;
+    box-sizing: border-box;
+    width: 25%;
+}
+
+.footer div h5{
+    border-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width : 650px){
+    img{
+        width: 50%;
+    }
+    form{
+        margin: auto;
+        width: 100%;
+    }
+    .footer-items{
+        width: 50%;
+    }
+}
+
+@media(max-width : 400px){
+    img{
+        width: 90%;
+        display: block;
+    }
+    input , textarea ,button{
+        width: 95%;
+    }
+    .footer-items{
+        width: 100%;
+    }
+}
