@@ -108,7 +108,7 @@ span{
     opacity: 1;
     display: block;
     animation-name: togglemode;
-    animation-duration: 0.8s;
+    animation-duration: 2.8s;
     animation-timing-function: ease-out;
 }
 
