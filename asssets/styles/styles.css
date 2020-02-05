@@ -193,7 +193,7 @@ a{
     }
     .image{
         height: 250px;
-        background-attachment: initial;
+        background-attachment: scroll;
     }
     .footer-items{
         width: 100%;
